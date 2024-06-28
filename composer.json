@@ -1,0 +1,6 @@
+{
+    "name": "rashid/image-resize",
+    "require": {
+        "imagine/imagine": "^1.3"
+    }
+}
