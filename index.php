@@ -11,7 +11,15 @@ include 'header.php';
                 <h1>Resize your image</h1>
             </div>
             <div class="card-body">
-                <form action="upload.php" method="post" enctype="multipart/form-data">
+                <form action="posted.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="file">Enter Title</label>
+                        <input type="text" name="title" id="" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Enter description</label>
+                        <input type="text" name="description" id="" class="form-control">
+                    </div>
                     <div class="form-group">
                         <label for="image">Enter Image</label>
                         <input type="file" name="image" id="image" class="form-control-file" required>
